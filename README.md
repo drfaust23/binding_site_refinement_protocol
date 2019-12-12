@@ -14,5 +14,9 @@ About binding site refinement protocol
 
 위 디렉토리에 차례대로 탐색을 수행하는 *perform_glosa_search.py* 스크립트가 존재한다. 
 
-`python perform_glosa_search.py <pdbfile>` 의 명령을 실행하면 자동으로 약 750000개의 binding site 구조에 대해서 유사도 비교를 수행한다. 
+`python perform_glosa_search.py <pdbfile>` 의 명령을 실행하면 자동으로 약 750000개의 binding site 구조에 대해서 유사도 비교를 수행한다.
+
+계산 결과는 perform_glosa_search.py 스크립트 안에 정의되어 있는 *outdir*에 저장되고 비교 결과 얻어지는 GA-Score는 *logfile* 에 저장된다. 
+
+
 
